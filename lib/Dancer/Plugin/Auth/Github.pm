@@ -13,7 +13,7 @@ use LWP::UserAgent;
 use JSON qw(decode_json);
 
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my $client_id;
 my $client_secret;
@@ -105,9 +105,8 @@ sub parse_query_str {
 }
 register_plugin;
 
-__END__
 1; # End of Dancer::Plugin::Auth::Github
-
+__END__
 =head1 NAME
 
 Dancer::Plugin::Auth::Github - Authenticate with Github
